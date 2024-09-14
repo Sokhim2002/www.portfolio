@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seyha's Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top " id="navbar">
+        <div class="container">
+        <a class="navbar-brand" href="#"><h1>Seyha's Portfolio</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <!-- Home -->
+            <li class="nav-item"><a class="nav-link" href="#section1">Home</a></li>
+            
+            <!-- About with dropdown for Skills, Projects, Experience -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                <a class="dropdown-item" href="#section3">Skills</a>
+                <a class="dropdown-item" href="#section4">Projects</a>
+                <a class="dropdown-item" href="#section5">Experience</a>
+                </div>
+            </li>
+
+            <!-- Education with dropdown for Achievements, Portfolio, Hobbies -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEducation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Education
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownEducation">
+                <a class="dropdown-item" href="#section7">Achievements</a>
+                <a class="dropdown-item" href="#section8">Portfolio</a>
+                <a class="dropdown-item" href="#section9">Hobbies</a>
+                </div>
+            </li>
+
+            <!-- Testimonials with dropdown for Gallery, Services, FAQ -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTestimonials" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Testimonials
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownTestimonials">
+                <a class="dropdown-item" href="#section11">Gallery</a>
+                <a class="dropdown-item" href="#section12">Services</a>
+                <a class="dropdown-item" href="#section13">FAQ</a>
+                </div>
+            </li>
+
+            <!-- Blog with dropdown for Team, Shop, Events -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="#section15">Team</a>
+                <a class="dropdown-item" href="#section16">Shop</a>
+                <a class="dropdown-item" href="#section17">Events</a>
+                </div>
+            </li>
+
+            <!-- Pricing with dropdown for Careers -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPricing" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Pricing
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownPricing">
+                <a class="dropdown-item" href="#section19">Careers</a>
+                </div>
+            </li>
+
+            <!-- Contact -->
+            <li class="nav-item"><a class="nav-link" href="#section20">Contact</a></li>
+
+            <!-- Toggle Light/Dark Mode -->
+            <li class="nav-item">
+                <button class="btn btn-outline-light" id="modeToggle">Light/Dark</button>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+  <!-- Sections -->
+  <div class="container-fluid">
+
+    <!-- Section 1: Home -->
+    <section id="section1" class="full-height">
+        <div class="container1">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Hello I'm <span>I'm Seyha</span></h1>
+                    <p>I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.</p>
+                    <a href="#" class="download-cv">Download CV</a>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <div class="profile-img-container">
+                        <div class="glow-border"></div>
+                        <img src="./img/seyha.jpg" alt="Profile Image" class="profile-img">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Stats Section -->
+            <div class="row stats text-center">
+                <div class="col-md-3 col-6 stat-item">
+                    <h2>10</h2>
+                    <p>Years of experience</p>
+                </div>
+                <div class="col-md-3 col-6 stat-item">
+                    <h2>22</h2>
+                    <p>Projects completed</p>
+                </div>
+                <div class="col-md-3 col-6 stat-item">
+                    <h2>7</h2>
+                    <p>Technologies mastered</p>
+                </div>
+                <div class="col-md-3 col-6 stat-item">
+                    <h2>429</h2>
+                    <p>Code commits</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <div class="logos">
+      <div class="slide">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+   </div>
+
+    <!-- Section 2: About -->
+    <section id="section2" class=" ">
+      
+      <div class="container2">
+        
+        <div class="img">
+            <img src="./img/seyha.jpg" alt=""  class="img-fluid" style="width: 300px;height:350px;border: 5px solid #7be4ba; background-color:#555a58; box-shadow: 0 0 15px 10px #555a58;">
+        </div>
+        <div class="text">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corporis architecto quod, aperiam aut nostrum, ea perspiciatis illum minus accusamus consectetur eveniet error ducimus repellat assumenda quaerat iure voluptates beatae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quibusdam vero ipsam, expedita repellendus perferendis? Aperiam, eos! Ea labore praesentium, qui quam porro ducimus officia, neque, soluta fuga consequuntur magnam.
+            </p>
+        </div>
+       
+      </div>
+    </section>
+
+    <!-- Section 3: Skills -->
+    <section id="section3" class="text-center">
+      <h2>Skills</h2>
+      <p>Describe your technical and soft skills here.</p>
+      <div class="container3">
+       
+        <div class="card text-dark">
+            <div class="card-text">
+                <div class="card-1">
+                  <h2 class="title ">HTML</2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi quidem repudiandae molestiae, corrupti soluta quisquam, fuga mollitia rem assumenda reiciendis voluptate excepturi totam sed! Quis aspernatur facilis unde aperiam.</p>
+                </div>
+            </div>
+            <div class="card-text ">
+                <div class="card-2">
+                    <h2>CSS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis natus dolorem fuga quia libero soluta officiis, vero aliquam velit deserunt officia eum tenetur at atque, distinctio fugiat voluptas saepe! Corrupti.</p>
+        
+                </div>
+            </div>
+            <div class="card-text">
+                <div class="card-3">
+                    <h2>JavaScript</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi distinctio saepe vel illo rem in blanditiis asperiores ducimus velit at labore aperiam fugiat veniam deserunt quidem officia, omnis suscipit incidunt?</p>
+                </div>
+            </div>
+            <div class="card-text">
+                <div class="card-4">
+                  <h2 class="title ">React js</2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi quidem repudiandae molestiae, corrupti soluta quisquam, fuga mollitia rem assumenda reiciendis voluptate excepturi totam sed! Quis aspernatur facilis unde aperiam.</p>
+                </div>
+            </div>
+            <div class="card-text ">
+                <div class="card-5">
+                    <h2>Java</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis natus dolorem fuga quia libero soluta officiis, vero aliquam velit deserunt officia eum tenetur at atque, distinctio fugiat voluptas saepe! Corrupti.</p>
+        
+                </div>
+            </div>
+            <div class="card-text">
+                <div class="card-6">
+                    <h2>C#</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi distinctio saepe vel illo rem in blanditiis asperiores ducimus velit at labore aperiam fugiat veniam deserunt quidem officia, omnis suscipit incidunt?</p>
+                </div>
+            </div>
+           
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Projects -->
+    <section id="section4" class=" text-center">
+      <div class="container4">
+        <h2>Projects</h2>
+        <p>Highlight the key projects you have worked on.</p>
+        <div class="pro">
+          <img src="./img/pic-1.jpg" class="img-fluid" alt="">
+          <img src="./img/p-2.jpg"  class="img-fluid" alt="">
+          <img src="./img/p-3.jpg"  class="img-fluid" alt="">
+        </div>
+       
+    </section>
+
+    <!-- Section 5: Experience -->
+    <section id="section5" class=" text-white text-center">
+      <div class="container5">
+        <h2>Experience</h2>
+        <p>Summarize your work experience and internships.</p>
+        <div class="line">
+          <i class="fa-brands fa-html5" style="color: #df5e26;"></i>
+          <h5>HTML</h5>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+        <div class="line">
+          <i class="fa-brands fa-css3" style="color: #2d7ad7;"></i>
+          <h5>CSS</h5>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
+        </div>
+      
+        <div class="line">
+          <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+          <h5>JavaScript</h5>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+        <div class="line">
+          <i class="fa-brands fa-react" style="color: #74C0FC;"></i>
+          <h5>React js</h5>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
+        </div>
+      
+        <div class="line">
+          <i class="fa-brands fa-java" style="color: #74C0FC;"></i>
+          <h5>Java</h5>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+        </div>
+        <div class="line">
+          <i class="fa-solid fa-code" style="color: #d4a31c;"></i>
+          <h5>C#</h5>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div>
+      
+       
+      </div>
+    </section>
+
+    <!-- Section 6: Education -->
+    <section id="section6" class="text-center">
+      <h2>Education</h2>
+        <p>Details about your academic background.</p>
+      <div class="container6">
+        <div class="edu">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad error fugit ab temporibus quod quidem. Esse laudantium suscipit ipsum debitis, iste nesciunt aspernatur. Laboriosam delectus magni odio nisi esse.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, mollitia optio! Voluptatibus, commodi hic qui, maiores iure corporis voluptatum sunt labore sed, aperiam asperiores id quam. Incidunt corrupti repellat voluptatum.
+          </p>
+          <img src="./img/images.jpg" alt="" class="img-fluid" style="width: 400px; border: 5px solid #74C0FC;">
+        </div>
+        <div class="edu">
+          <img src="./img/images.1.jpg" class="img-fluid" alt="" style="width: 400px; border: 5px solid #74C0FC;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ad error fugit ab temporibus quod quidem. Esse laudantium suscipit ipsum debitis, iste nesciunt aspernatur. Laboriosam delectus magni odio nisi esse.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, mollitia optio! Voluptatibus, commodi hic qui, maiores iure corporis voluptatum sunt labore sed, aperiam asperiores id quam. Incidunt corrupti repellat voluptatum.
+          </p>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Achievements -->
+    <section id="section7" class=" text-center">
+      <div class="container7">
+        <h2>Achievements</h2>
+        <p>List your key achievements and awards.</p>
+        <div class="resurt">
+           <img src="./img/pro2.png" style="width: 400px; height: 300px; " alt="">
+           <img src="./img/pic-1.jpg" style="width: 400px; height: 300px; " alt="">
+           <img src="./img/pro.jpg" style="width: 400px; height: 300px; " alt="">
+           
+           <img src="./img/pro2.png"  class="img-fluid" style="width: 400px; height: 300px; " alt="">
+           <img src="./img/pic-1.jpg" class="img-fluid" style="width: 400px; height: 300px; " alt="">
+           <img src="./img/pro.jpg"   class="img-fluid" style="width: 400px; height: 300px; " alt="">
+           
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Portfolio -->
+    <section id="section8" class=" text-center" >
+      
+      <div class="container8" ">
+          <h2>Portfolio</h2>
+          <p>Showcase your portfolio items here.</p>
+          <div class="main" ">
+              <div class="col-lg-6 d-flex justify-content-center" >
+                  <div class="profile-img-container">
+                      <div class="glow-border"></div>
+                      <img src="./img/seyha.jpg" alt="Profile Image" class="profile-img">
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <h1>Hello I'm <span>I'm Seyha</span></h1>
+                  <p>I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.</p>
+                  <a href="#" class="download-cv">Download CV</a>
+                  <div class="social-icons mt-4">
+                      <a href="#"><i class="fab fa-github"></i></a>
+                      <a href="#"><i class="fab fa-linkedin"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>   
+      </div>
+    </section>
+
+    <!-- Section 9: Hobbies -->
+    <section id="section9" class=" text-center">
+      <div class="container9">
+        <h2>Hobbies</h2>
+        <p>Talk about your hobbies and personal interests.</p>
+        <div class="M">
+          <div class="ati">
+            <h2>Reserch#</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia et commodi ea at? Nihil corporis, neque omnis optio, nisi deserunt placeat soluta ullam quas sed eaque eveniet nulla asperiores.</p>
+          </div>
+          <div class="ati">
+            <h2>Movie#</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia et commodi ea at? Nihil corporis, neque omnis optio, nisi deserunt placeat soluta ullam quas sed eaque eveniet nulla asperiores.</p>
+          </div>
+          <div class="ati">
+            <h2>Play Game#</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia et commodi ea at? Nihil corporis, neque omnis optio, nisi deserunt placeat soluta ullam quas sed eaque eveniet nulla asperiores.</p>
+          </div>
+          <div class="ati">
+            <h2>Build project#</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia et commodi ea at? Nihil corporis, neque omnis optio, nisi deserunt placeat soluta ullam quas sed eaque eveniet nulla asperiores.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10: Testimonials -->
+    <section id="section10"  class=" text-center">
+      <div class="container10" style="padding-top: 40%;">
+        <h2>Testimonials</h2>
+        <p>Include testimonials from your clients or colleagues.</p>
+
+        
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <blockquote>
+                "This product changed my life! Highly recommend it to everyone."
+            </blockquote>
+            <p>- John Doe, CEO of Company</p>
+        </div>
+        <div class="testimonial">
+            <blockquote>
+                "The customer service was excellent, and the product works perfectly!"
+            </blockquote>
+            <p>- Jane Smith, Marketing Director</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 11: Gallery -->
+    <section id="section11" class="text-center">
+      <div class="container11" style="padding-top: 20%;">
+        <h2>Gallery</h2>
+        <p>Include images or a gallery of your work.</p>
+        <div class="logos1"></div>
+          <div class="slide1">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/pic-1.jpg" alt="">
+            <img src="./img/p-3.jpg" alt="">
+            <img src="./img/pro.jpg" alt="">
+            <img src="./img/pro1.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/pic-1.jpg" alt="">
+            <img src="./img/p-3.jpg" alt="">
+            <img src="./img/pro.jpg" alt="">
+            <img src="./img/pro1.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/pic-1.jpg" alt="">
+            <img src="./img/p-3.jpg" alt="">
+            <img src="./img/pro.jpg" alt="">
+            <img src="./img/pro1.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+          </div>
+       </div>
+        <div class="logos2"></div>
+          <div class="slide2">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/pic-1.jpg" alt="">
+            <img src="./img/p-3.jpg" alt="">
+            <img src="./img/pro.jpg" alt="">
+            <img src="./img/pro1.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/pic-1.jpg" alt="">
+            <img src="./img/p-3.jpg" alt="">
+            <img src="./img/pro.jpg" alt="">
+            <img src="./img/pro1.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+            <img src="./img/pic-1.jpg" alt="">
+            <img src="./img/p-3.jpg" alt="">
+            <img src="./img/pro.jpg" alt="">
+            <img src="./img/pro1.jpg" alt="">
+            <img src="./img/p-2.jpg" alt="">
+          </div>
+       </div>
+      </div>
+    </section>
+
+    <!-- Section 12: Services -->
+    <section id="section12" style="padding-top: 35%;" class=" text-center">
+      <h2>Services</h2>
+        <p>Describe the services you offer.</p>
+      <div class="container12">
+        <div class="card text-dark">
+          <div class="card-text">
+              <div class="card-1">
+                <h2 class="title ">HTML</2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi quidem repudiandae molestiae, corrupti soluta quisquam, fuga mollitia rem assumenda reiciendis voluptate excepturi totam sed! Quis aspernatur facilis unde aperiam.</p>
+              </div>
+          </div>
+          <div class="card-text ">
+              <div class="card-2">
+                  <h2>CSS</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis natus dolorem fuga quia libero soluta officiis, vero aliquam velit deserunt officia eum tenetur at atque, distinctio fugiat voluptas saepe! Corrupti.</p>
+      
+              </div>
+          </div>
+          <div class="card-text">
+              <div class="card-3">
+                  <h2>JavaScript</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi distinctio saepe vel illo rem in blanditiis asperiores ducimus velit at labore aperiam fugiat veniam deserunt quidem officia, omnis suscipit incidunt?</p>
+              </div>
+          </div>
+          <div class="card-text">
+              <div class="card-3">
+                  <h2>React js</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi distinctio saepe vel illo rem in blanditiis asperiores ducimus velit at labore aperiam fugiat veniam deserunt quidem officia, omnis suscipit incidunt?</p>
+              </div>
+          </div>
+          <div class="card-text">
+              <div class="card-3">
+                  <h2>Java</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi distinctio saepe vel illo rem in blanditiis asperiores ducimus velit at labore aperiam fugiat veniam deserunt quidem officia, omnis suscipit incidunt?</p>
+              </div>
+          </div>
+          <div class="card-text">
+              <div class="card-3">
+                  <h2>C#</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi distinctio saepe vel illo rem in blanditiis asperiores ducimus velit at labore aperiam fugiat veniam deserunt quidem officia, omnis suscipit incidunt?</p>
+              </div>
+          </div>
+       
+      </div>
+      </div>
+    </section>
+
+    <!-- Section 13: FAQ -->
+    <section id="section13" class=" text-white text-center">
+      <div class="container " style="padding-top: 30%;">
+        <h2>FAQ</h2>
+        <p>Frequently asked questions about your work or services.</p>
+
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>What is the return policy?</h3>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+                <p>You can return any item within 30 days of purchase for a full refund.</p>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>How long does shipping take?</h3>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+                <p>Shipping usually takes 5-7 business days for standard delivery.</p>
+            </div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Do you ship internationally?</h3>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we ship worldwide with additional shipping fees.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 14: Blog -->
+    <section id="section14" class="text-center">
+      <div class="container" style="padding-top: 20%;">
+        <h2>Blog</h2>
+        <p>Share insights, articles, or blog posts you've written.</p>
+
+        <h1 class="text-center mb-5">Our Latest Blogs</h1>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card blog-card" data-aos="fade-up">
+                <img src="./img/b1.jpg" class="card-img-top" alt="Blog-Image">
+                <div class="card-body">
+                    <h5 class="title">Blog Title 1</h5>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel urna ut purus eleifend tincidunt.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card blog-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="./img/b2.jpg" class="card-img-top" alt="Blog-Image">
+                <div class="card-body">
+                    <h5 class="title">Blog Title 2</h5>
+                    <p class="text">Donec euismod ex in nunc bibendum, vitae facilisis velit viverra. Proin in risus ut justo ornare fermentum.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card blog-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="./img/b3.jpg" class="card-img-top" alt="Blog-Image">
+                <div class="card-body">
+                    <h5 class="title">Blog Title 3</h5>
+                    <p class="text">Suspendisse potenti. Curabitur convallis orci ac ligula blandit gravida. Nulla euismod pharetra lorem nec dapibus.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+    </section>
+
+    <!-- Section 15: Team -->
+    <section id="section15" class="text-white text-center">
+      <div class="container" style="padding-top: 30%;">
+        <h2>Team</h2>
+        <p>Introduce your team members or collaborators.</p>
+
+         <div class="container">
+        <h1 class="text-center mb-5">Meet Our Team</h1>
+        
+        <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card team-card">
+                    <img src="./img/Logo1.png" class="card-img-top" alt="Team Member Photo">
+                    <div class="card-body text-center">
+                        <h5 class="title">John Doe</h5>
+                        <p class="text">CEO & Founder</p>
+                        <p class="description">John is the visionary behind our company with over 20 years of experience.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card team-card">
+                    <img src="./img/b2.jpg" class="card-img-top" alt="Team Member Photo">
+                    <div class="card-body text-center">
+                        <h5 class="title">Jane Smith</h5>
+                        <p class="text">Chief Technology Officer</p>
+                        <p class="description">Jane leads our tech team, building cutting-edge software solutions.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card team-card">
+                    <img src="./img/Logo3.png" class="card-img-top" alt="Team Member Photo">
+                    <div class="card-body text-center">
+                        <h5 class="title">Emily Johnson</h5>
+                        <p class="text">Head of Marketing</p>
+                        <p class="description">Emily is responsible for shaping our brand's presence and marketing efforts.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+    </section>
+
+    <!-- Section 16: Shop -->
+    <section id="section16" class=" text-white text-center">
+      <div class="container" style="padding-top: 40%;">
+        <h2>Shop</h2>
+        <p>Showcase products or services you are selling.</p>
+          
+        <h1 class="text-center mb-5">Our Services</h1>
+
+        <div class="row">
+            <!-- Service Item 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="./img/b1.jpg" class="card-img-top" alt="Service Image">
+                    <div class="body">
+                        <h5 class="title">Service A</h5>
+                        <p class="text">Description of Service A. It includes all the amazing features you need.</p>
+                        <p class="price">$100.00</p>
+                        <button class="btn btn-primary add-to-cart" data-service="Service A" data-price="100.00">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Service Item 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="./img/b2.jpg" class="card-img-top" alt="Service Image">
+                    <div class="body">
+                        <h5 class="title">Service B</h5>
+                        <p class="text">Description of Service B. This service is perfect for your needs.</p>
+                        <p class="price">$150.00</p>
+                        <button class="btn btn-primary add-to-cart" data-service="Service B" data-price="150.00">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Service Item 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <img src="./img/b3.jpg" class="card-img-top" alt="Service Image">
+                    <div class="body">
+                        <h5 class="title">Service C</h5>
+                        <p class="text">Description of Service C. A comprehensive service with additional benefits.</p>
+                        <p class="price">$200.00</p>
+                        <button class="btn btn-primary add-to-cart" data-service="Service C" data-price="200.00">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Shopping Cart -->
+        <div class="cart-summary mt-5 text-danger ">
+            <h2>Your Cart</h2>
+            <ul id="cart-items" class="list-group mb-3"></ul>
+            <p id="total-price" class="font-weight-bold  bg-dark ">Total: $0.00</p>
+            <button class="btn btn-success" data-toggle="modal" data-target="#checkoutModal">Proceed to Checkout</button>
+        </div>
+    
+        <!-- Checkout Modal -->
+        <div class="modal fade " id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+            <div class="modal-dialog  text-dark" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="checkoutModalLabel">Checkout</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+                        <form id="checkout-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="text" class="form-control" id="address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="payment">Payment Method</label>
+                                <select class="form-control" id="payment" required>
+                                    <option>Credit Card</option>
+                                    <option>PayPal</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Complete Purchase</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+      </div>
+    </section>
+
+    <!-- Section 17: Events -->
+    <section id="section17" class=" text-white text-center">
+      <div class="container" style="padding-top: 70%;">
+        <h2>Events</h2>
+        <p>Talk about events you've organized or participated in.</p>
+
+        <h1 class="text-center mb-5" data-aos="fade-down">Upcoming Events</h1>
+
+        <div id="eventCarousel" class="carousel" data-ride="carousel" data-interval="5000">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#eventCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#eventCarousel" data-slide-to="1"></li>
+              <li data-target="#eventCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Slides -->
+          <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                  <img src="./img/s1.jpg" class="d-block w-100" alt="Event 1">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Event 1 Title</h5>
+                      <p>Description for event 1.</p>
+                  </div>
+              </div>
+      
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                  <img src="./img/s2.jpg" class="d-block w-100" alt="Event 2">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Event 2 Title</h5>
+                      <p>Description for event 2.</p>
+                  </div>
+              </div>
+      
+              <!-- Slide 3 -->
+              <div class="carousel-item">
+                  <img src="/img/s4.jpg" class="d-block w-100" alt="Event 3">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Event 3 Title</h5>
+                      <p>Description for event 3.</p>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Controls -->
+          <a class="carousel-control-prev" href="#eventCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#eventCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+      </div>
+      </div>
+    </section>
+
+   
+
+    <!-- Section 18: Pricing -->
+    <section id="section18" class=" text-center">
+      <div class="container18" style="padding-top: 90%;">
+        <h2>Pricing</h2>
+        <p>Provide pricing information for your services or products.</p>
+         
+        <div class="pricing-container">
+          <!-- Card 1 -->
+          <div class="t">
+              <div class="inner">
+                  <!-- Front of the card -->
+                  <div class="front">
+                      <h2>Basic Plan</h2>
+                      <p>Perfect for personal use</p>
+                      <p class="price">$19/month</p>
+                      <button>Select Plan</button>
+                  </div>
+      
+                  <!-- Back of the card -->
+                  <div class="back">
+                      <h2>Basic Plan</h2>
+                      <p>Includes:</p>
+                      <ul>
+                          <li>10 GB Storage</li>
+                          <li>24/7 Support</li>
+                          <li>Email Access</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="t">
+              <div class="inner">
+                  <!-- Front of the card -->
+                  <div class="front">
+                      <h2>Pro Plan</h2>
+                      <p>Great for small businesses</p>
+                      <p class="price">$49/month</p>
+                      <button>Select Plan</button>
+                  </div>
+      
+                  <!-- Back of the card -->
+                  <div class="back">
+                      <h2>Pro Plan</h2>
+                      <p>Includes:</p>
+                      <ul>
+                          <li>50 GB Storage</li>
+                          <li>Priority Support</li>
+                          <li>Email & Chat Access</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="t">
+              <div class="inner">
+                  <!-- Front of the card -->
+                  <div class="front">
+                      <h2>Enterprise Plan</h2>
+                      <p>Best for large enterprises</p>
+                      <p class="price">$99/month</p>
+                      <button>Select Plan</button>
+                  </div>
+      
+                  <!-- Back of the card -->
+                  <div class="back">
+                      <h2>Enterprise Plan</h2>
+                      <p>Includes:</p>
+                      <ul>
+                          <li>Unlimited Storage</li>
+                          <li>Dedicated Support</li>
+                          <li>All Access</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+        
+      </div>
+    </section>
+
+    <!-- Section 19: Careers -->
+    <section id="section19" class="text-white text-center">
+      <div class="container19" style="padding-top: 80%;">
+        <h1>Careers</h2>
+        <p>Offer career opportunities or positions you're hiring for.</p>
+
+        <div class="c">
+          <img src="./img/t1.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quidem perspiciatis excepturi numquam quasi, voluptatem reiciendis soluta adipisci eaque assumenda mollitia esse? Ad autem consectetur placeat dolorum obcaecati aperiam amet?</p>
+        </div>
+        <div class="c">
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quidem perspiciatis excepturi numquam quasi, voluptatem reiciendis soluta adipisci eaque assumenda mollitia esse? Ad autem consectetur placeat dolorum obcaecati aperiam amet?</p>
+          <img src="./img/t2.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 20: Contact -->
+    <section id="section20" class=" text-center">
+      <div class="container" style="padding-top: 90%;">
+        <h2>Contact</h2>
+        <form class="row g-3 text-dark">
+            <div class="col-md-6 " >
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            
+            <div class="col-12 mt-4">
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </form>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="logos " style="padding-top: 70%;"></div>
+  <div class="slide">
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-github"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-youtube"></i>
+  </div>
+</div>
+
+  <!-- JavaScript for Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom JavaScript for Light/Dark Mode Toggle -->
+  <script src="./new.js"></script>
+</body>
+</html>
